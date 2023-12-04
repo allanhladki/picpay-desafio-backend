@@ -1,10 +1,23 @@
 package br.com.allanhladki.picpay_simplificado.model;
 
-public abstract class User {
+public class User {
 
     private Integer id;
     private String name;
     private String email;
     private String password;
+
+    public Integer getId() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getEmail() {
+        return email;
+    }
+    public String getPassword() {
+        return password;
+    }
 
 }

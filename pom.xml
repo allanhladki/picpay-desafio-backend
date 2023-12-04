@@ -28,6 +28,8 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
+  
+  <!-- REST dependencies -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy-reactive-jackson</artifactId>
@@ -40,11 +42,16 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
     </dependency>
+    <!-- REST dependencies -->
+
+    <!-- Testes -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-junit5</artifactId>
       <scope>test</scope>
     </dependency>
+    <!-- Testes -->
+
   </dependencies>
   <build>
     <plugins>
